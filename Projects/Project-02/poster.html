@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style-drop.css">
+		
+		<!--Link to jQuery UI CSS-->
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+		<!--Link to jQuery UI libraries-->
+	  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+		<title>Drag and Drop</title>
+	</head>
+
+	<body>
+
+		<h1> Create Your Own Poster</h1>
+
+		<p> Main Character </p>
+
+		<div id= "text"> Titles 
+		</div>
+
+		<div id= "text2"> Villian
+		</div>
+
+		<div id= "text3"> Backgrounds
+		</div>
+
+		<div id= "text4"> Credits
+		</div>
+
+
+
+	
+
+		<div id= "rectangle">
+		</div>
+		
+		<div id="draggable-1">
+			
+			<img id="draggable-1" src=
+"deewar-amit.png" ondragstart="drag(event)">
+		</div>
+		<br>
+		 
+
+		<div id="draggable-2">
+			<img id="draggable-2" src=
+"amit1.png" ondragstart="drag(event2)">
+		</div>
+		<br>
+		 
+
+		<div id="draggable-3">
+			<img id="draggable-3" src=
+"deewar.png" ondragstart="drag(event3)">
+		</div>
+		
+
+			<div id="draggable-4">
+			<img id="draggable-4" src=
+"deewar-title4.png" ondragstart="drag(event3)">
+		</div>
+		
+
+		<div id="draggable-5">
+			<img id="draggable-5" src=
+"deewar-title2.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-6">
+			<img id="draggable-6" src=
+"deewar-amit2.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-7">
+			<img id="draggable-7" src=
+"amit3.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-8">
+			<img id="draggable-8" src=
+"shashi3.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-9">
+			<img id="draggable-9" src=
+"deewar-shammi.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-10">
+			<img id="draggable-10" src=
+"sashi2.png" ondragstart="drag(event3)">
+		</div>
+		
+		<div id="draggable-11">
+			<img id="draggable-11" src=
+"shashi2.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-12">
+			<img id="draggable-12" src=
+"deewar-bg.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-13">
+			<img id="draggable-13" src=
+"deewar-bg1.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-14">
+			<img id="draggable-14" src=
+"deewar-bg2.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-15">
+			<img id="draggable-15" src=
+"deewar-bg4.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-16">
+			<img id="draggable-16" src=
+"deewar-credit.png" ondragstart="drag(event3)">
+		</div>
+
+		<div id="draggable-17">
+			<img id="draggable-17" src=
+"deewar-credit2.png" ondragstart="drag(event3)">
+		</div>
+
+
+		
+
+<!--Embedded jQuery goes here-->
+	<script>
+
+	$( function() {
+    	$("#draggable-1").draggable();
+    	$("#droppable-1").droppable({
+    		accept: "#draggable-1",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    		}
+    	});
+
+    	$("#draggable-2").draggable();
+    	$("#droppable-2").droppable({
+    		accept: "#draggable-2",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+    	});
+
+    	$("#draggable-3").draggable();
+    	$("#droppable-3").droppable({
+    		accept: "#draggable-3",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+
+    	$("#draggable-4").draggable();
+    	$("#droppable-4").droppable({
+    		accept: "#draggable-4",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-5").draggable();
+    	$("#droppable-5").droppable({
+    		accept: "#draggable-5",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+
+    	$("#draggable-6").draggable();
+    	$("#droppable-6").droppable({
+    		accept: "#draggable-6",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-7").draggable();
+    	$("#droppable-7").droppable({
+    		accept: "#draggable-7",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-8").draggable();
+    	$("#droppable-8").droppable({
+    		accept: "#draggable-8",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+    	$("#draggable-9").draggable();
+    	$("#droppable-9").droppable({
+    		accept: "#draggable-9",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-10").draggable();
+    	$("#droppable-10").droppable({
+    		accept: "#draggable-10",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-11").draggable();
+    	$("#droppable-11").droppable({
+    		accept: "#draggable-11",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-12").draggable();
+    	$("#droppable-12").droppable({
+    		accept: "#draggable-12",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-13").draggable();
+    	$("#droppable-13").droppable({
+    		accept: "#draggable-13",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-14").draggable();
+    	$("#droppable-14").droppable({
+    		accept: "#draggable-14",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-15").draggable();
+    	$("#droppable-15").droppable({
+    		accept: "#draggable-15",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+    	$("#draggable-16").draggable();
+    	$("#droppable-16").droppable({
+    		accept: "#draggable-16",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    	$("#draggable-17").draggable();
+    	$("#droppable-17").droppable({
+    		accept: "#draggable-17",
+    		drop: function(event, ui){
+    			$(this)
+    			.addClass("dropped")
+    			
+    			
+    		}
+
+  	});
+
+    
+    	});
+
+	</script>
+</html>

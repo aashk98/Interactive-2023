@@ -1,0 +1,227 @@
+h1{
+	position: absolute;
+	left:570px;
+	top:25px;
+	color: red;
+	font-family: sans-serif;
+	z-index: 1;
+}
+
+p{
+	position: absolute;
+	left:150px;
+	top:280px;
+	background-color:red;
+	font-family: sans-serif;
+	z-index: 2;
+
+}
+
+body{
+
+ background-image: url("bg-image.jpg");
+ width: 100%;
+ opacity: 95%;
+}
+
+#text{
+	position: absolute;
+	left:1070px;
+	top:40px;
+	color: white;
+	background-color:red;
+	font-family: sans-serif;
+	z-index: 3;
+}
+
+#text3{
+	position: absolute;
+	left:1030px;
+	top:560px;
+	color: white;
+	background-color:red;
+	font-family: sans-serif;
+}
+
+
+#text2{
+	position: absolute;
+	left:700px;
+	top:720px;
+	color: white;
+	background-color:red;
+	font-family: sans-serif;
+	z-index: 4;
+
+}
+
+#rectangle{
+	height:500px;
+	width:370px;
+	background:lightyellow;
+	position: absolute;
+	left:570px;
+	top:70px;
+
+}
+
+
+
+#draggable-1{
+	position: absolute;
+	width: 50%;
+	left: -20px;
+	top: 0px;
+}
+
+
+#draggable-2{
+	position: absolute;
+	width:48%;
+	left:90px;
+	top:-30px;
+
+}
+
+#draggable-6{
+	position: absolute;
+	width: 55%;
+	left: -20px;
+	top: 230px;
+
+}
+
+#draggable-7{
+	position: absolute;
+	width: 65%;
+	left: -85px;
+	top: 110px;
+
+}
+
+#draggable-3{
+	position: absolute;
+	width: 50%;
+	left: 480px;
+	top: 30px;
+	z-index: 5;
+
+}
+
+
+#draggable-4{
+	position: absolute;
+	width: 50%;
+	left: 510px;
+	top: 64px;
+	rotate: -2deg;
+	z-index: 6;
+
+}
+
+
+
+#draggable-5{
+	position: absolute;
+	width: 50%;
+	left: 480px;
+	top: 100px;
+	rotate:2deg;
+	z-index: 7;
+
+}
+
+#draggable-8{
+    position: absolute;
+	width: 57%;
+	left: 200px;
+	top: 350px;
+}
+
+#draggable-9{
+	position: absolute;
+	width: 55%;
+	left: 120px;
+	top: 340px;
+}
+
+#draggable-10{
+	position: absolute;
+	width: 45%;
+	left: 310px;
+	top: 320px;
+}
+
+#draggable-11{
+	position: absolute;
+	width: 45%;
+	left: 260px;
+	top: 420px;
+}
+
+#draggable-12{
+	position: absolute;
+	width: 47%;
+	left: 490px;
+	top: 300px;
+}
+
+#draggable-13{
+	position: absolute;
+	width: 50%;
+	left: 490px;
+	top: 300px;
+
+}
+
+#draggable-14{
+	position: absolute;
+	width: 50%;
+	left: 490px;
+	top: 300px;
+	
+
+}
+
+#draggable-15{
+	position: absolute;
+	width: 50%;
+	left: 490px;
+	top: 300px;
+	
+
+}
+
+#text4{
+	position: absolute;
+	left: 1070px;
+	top: 420px;
+	color: white;
+	background-color:red;
+	font-family: sans-serif;
+
+}
+
+
+#draggable-16{
+	position: absolute;
+	width: 35%;
+	left: 550px;
+	top: 170px;
+	
+
+}
+
+#draggable-17{
+	position: absolute;
+	width: 50%;
+	left: 490px;
+	top: 200px;
+	
+
+}
+	
+
+p{
+	color: white;
+}

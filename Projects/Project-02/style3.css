@@ -1,0 +1,123 @@
+
+h1{
+	position: absolute;
+	left:800px;
+	top: 200px;
+	font-family: monospace;
+	font-size: 50px;
+	padding-left: 50px;
+	color:white;
+}
+
+body{
+
+ background-image: url("bg-image.jpg");
+ width: 100%;
+ opacity: 95%;
+}
+
+p{
+	text-align: left;
+	position: absolute;
+	left:600px;
+	top:300px;
+	font-family:monospace;
+	padding-left: 80px;
+	width:50%;
+	color: white ;
+	font-size: 20px;
+}
+
+h3{
+	position: absolute;
+	top:650px;
+	left:600px;
+	font-family:monospace;
+	padding-left: 50px;
+	padding-right: 30px;
+	width: 55%;
+	color: white ;
+	background-color: darkred;
+	font-size: 20px;
+}
+
+
+.img1{
+	float:left;
+	width:33%;
+	padding:2px;
+	position: absolute;
+	left:80px;
+	top:60px;
+}
+
+.img2{
+	float:center;
+	width:35%;
+	padding:2px;
+	position: absolute;
+	left:65px;
+	top:400px;
+
+}
+
+.img3{
+	float:left;
+	width:35%;
+	padding:2px;
+	position: absolute;
+	left:340px;
+	top:430px;
+}
+
+
+.img4{
+	float:left;
+	width:80%;
+	padding:2px;
+	position: absolute;
+	left:350px;
+	top:90px;
+}
+
+
+
+
+.button{
+  border: none;
+  background-color: skyblue;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top:550px;
+  left:870px;
+
+}
+
+.button:hover {
+  background-color: #FFAB00;
+  color: white;
+} 
+
+@media print{
+
+	div#redstripe {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 200%;
+		padding: 100px 0px 100px 0px;
+	}
+
+	h3{
+		width: 50%;
+	}
+}
+
