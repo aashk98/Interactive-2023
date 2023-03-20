@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+
+
+/* this is where you can style the objects in your still life */
+
+.oval{
+	width: 50px;
+	height: 180px;
+	border-radius: 60%;
+	background: blue;
+	position: absolute;
+	top: 15px;
+	left: 420px;
+	rotate: 70deg;
+}
+
+.square{
+	width: 120px;
+	height: 250px;
+	background: blue;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	rotate: -2deg;
+	
+}
+
+
+.circle{
+	width:200px;
+	height: 200px;
+	border-radius: 100%;
+	background: blue;
+	position: absolute;
+	top: 190px;
+	left: 360px;
+	
+}
+
+
+.trapeze{
+      border-bottom: 100px solid blue;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 20px;
+      width: 200px;
+      position: absolute;
+      top: 300px;
+	  left: 360px;
+	  rotate: 180deg;
+    }
+
+.trapeze2{
+      border-bottom: 100px solid blue;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 10px;
+      width: 175px;
+      position: absolute;
+      top: 350px;
+	  left: 372px;
+	  rotate: 180deg;
+    }
+
+
+    .rect{
+      
+      width: 200px;
+	height: 100px;
+	border-radius: 20px;
+	background: white;
+	position: absolute;
+	top: 320px;
+	left: 550px;
+	box-shadow: 0 0 20px gray;
+
+}
+
+.candle{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 258px;
+	left: 580px;
+	box-shadow: 0 0 20px gray;
+}
+
+.candle2{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 278px;
+	left: 650px;
+	box-shadow: 0 0 20px gray;
+}
+
+.candle3{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 278px;
+	left: 540px;
+	box-shadow: 0 0 20px gray;
+}
+
+.flame{
+	width: 30px;
+	height: 70px;
+	border-radius: 60%;
+	background: blue;
+	position: absolute;
+	top: 240px;
+	left: 630px;
+	rotate: 180deg;
+	background-color: red;
+	animation-name:m1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes m1{
+  from{
+    position: absolute;
+	top: 280px;
+	left: 630px;
+	background-color: red;
+  }
+  to{
+    position: absolute;
+	top: 240px;
+	left: 630px;
+	background-color: orange;
+  }
+}
+
+.candle4{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 268px;
+	left: 600px;
+	box-shadow: 0 0 20px gray;
+}
+
+
+
+
+.candle4{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 320px;
+	left: 600px;
+	box-shadow: 0 0 20px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
