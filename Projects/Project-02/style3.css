@@ -1,12 +1,14 @@
 
 h1{
-	position: absolute;
-	left:800px;
-	top: 200px;
-	font-family: monospace;
-	font-size: 50px;
+	position: fixed;
+	left:40px;
+	top:330px;
+	font-family: fantasy;
+	font-size: 100px;
 	padding-left: 50px;
-	color:white;
+	color:red;
+	z-index: 2;
+	
 }
 
 body{
@@ -19,36 +21,47 @@ body{
 p{
 	text-align: left;
 	position: absolute;
-	left:600px;
-	top:300px;
-	font-family:monospace;
-	padding-left: 80px;
-	width:50%;
+	left:430px;
+	top:520px;
+	font-family:sans-serif;
+	width:35%;
 	color: white ;
-	font-size: 20px;
+	font-size:18px;
 }
 
 h3{
 	position: absolute;
-	top:650px;
-	left:600px;
-	font-family:monospace;
+	top:40px;
+	left:30px;
+	font-family: cursive;
 	padding-left: 50px;
 	padding-right: 30px;
-	width: 55%;
+	width: 60%;
 	color: white ;
-	background-color: darkred;
-	font-size: 20px;
+	font-size:20px;
+	z-index: 1;
 }
 
+.text2{
+
+	text-align: left;
+	position: absolute;
+	left:430px;
+	top:880px;
+	font-family:sans-serif;
+	width:35%;
+	color: white ;
+	font-size:18px;
+
+}
 
 .img1{
 	float:left;
-	width:33%;
+	width:60%;
 	padding:2px;
 	position: absolute;
-	left:80px;
-	top:60px;
+	left:990px;
+	top:90px;
 }
 
 .img2{
@@ -56,30 +69,38 @@ h3{
 	width:35%;
 	padding:2px;
 	position: absolute;
-	left:65px;
-	top:400px;
+	left:670px;
+	top:100px;
 
 }
 
 .img3{
 	float:left;
-	width:35%;
+	width:40%;
 	padding:2px;
 	position: absolute;
-	left:340px;
-	top:430px;
+	left:980px;
+	top:700px;
 }
 
 
 .img4{
 	float:left;
-	width:80%;
+	width:70%;
 	padding:2px;
 	position: absolute;
-	left:350px;
-	top:90px;
+	left:60px;
+	top:50px;
 }
 
+.img5{
+	float:left;
+	width:45%;
+	padding:2px;
+	position: absolute;
+	left:60px;
+	top:540px;
+}
 
 
 
@@ -96,8 +117,8 @@ h3{
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  top:550px;
-  left:870px;
+  top:1030px;
+  left:380px;
 
 }
 
